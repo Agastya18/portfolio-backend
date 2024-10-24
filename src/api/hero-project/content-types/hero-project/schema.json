@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_projects",
+  "info": {
+    "singularName": "hero-project",
+    "pluralName": "hero-projects",
+    "displayName": "Hero-project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "p_name": {
+      "type": "string"
+    },
+    "p_demo": {
+      "type": "string"
+    },
+    "p_github": {
+      "type": "string"
+    },
+    "p_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "p_description": {
+      "type": "text"
+    }
+  }
+}
